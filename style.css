@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FFC4C4;
+  font-family: sans-serif;
+  outline: none;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #FFC4C4;
+  margin:15px;
+  margin-bottom: -10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+.calculator{
+  background-color: #FFF2F2;
+  padding: 18px;
+  border-radius: 25px;
+  box-shadow: inset 5px 5px 12px #FFffff,
+                    5px 5px 12px rgba(0,0,0,.25);  
+
+display: grid;
+  grid-template-columns: repeat(4,68px);
+  
+}
+input{
+  grid-column: span 4;
+    background-color: #FFF2F2;
+  height: 70px;
+  width: 260px;
+   box-shadow: inset -5px -5px 12px #ffffff,
+                inset   5px 5px 12px rgba(0,0,0,.15);  
+border-radius: 30px;
+  border: none;
+  color: rgb(70,70,70);
+  font-size: 45px;
